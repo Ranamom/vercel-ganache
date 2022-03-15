@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "start": "node api/index.js",
-    "build": "babel api --out-dir public"
+    "build": "yarn build:js && yarn build:html",
+    "build:js": "babel api --out-dir public",
+    "build:html": "cp index.html public/"
   },
   "dependencies": {
     "@babel/cli": "^7.17.6",
