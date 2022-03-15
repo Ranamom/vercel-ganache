@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+yarn-error.log
+dist
+.env
+.env*
+data
+*firebase-adminsdk*json
+deploy.tar
+cache
+build
