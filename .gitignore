@@ -9,3 +9,5 @@ data
 deploy.tar
 cache
 build
+db
+accounts.json

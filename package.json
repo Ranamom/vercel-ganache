@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node api/index.js",
+    "build": "echo 'Fake build'"
+  },
   "dependencies": {
+    "dotenv": "^16.0.0",
     "ganache": "^7.0.3"
   }
 }
