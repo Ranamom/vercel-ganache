@@ -19,6 +19,6 @@
     "babel-plugin-module-resolver": "^4.1.0",
     "dotenv": "^16.0.0",
     "ganache": "^7.0.3",
-    "ethers": "^5.7.0"  // Add ethers here
+    "ethers": "^5.7.0"
   }
 }
